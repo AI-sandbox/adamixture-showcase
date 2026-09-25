@@ -1,0 +1,71 @@
+name: Submit a Use Case
+description: Submit a scientific study, preprint, thesis, or software integration using ADAMIXTURE.
+title: "[Use Case]: <Paper Title or Project Name>"
+labels: ["use-case", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing your research to the **ADAMIXTURE Showcase**!
+        Fill out the details below so we can feature your publication.
+
+  - type: input
+    id: paper_title
+    attributes:
+      label: Publication / Preprint Title
+      placeholder: "e.g., Connectivity and dispersal mode shape the landscape genetics..."
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "e.g., Jane Doe, John Smith, Alice Brown"
+    validations:
+      required: true
+
+  - type: input
+    id: url_doi
+    attributes:
+      label: Paper DOI or URL
+      placeholder: "e.g., https://doi.org/10.1101/... or https://biorxiv.org/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Research Category
+      options:
+        - "🌿 Ecology, Evolution & Conservation"
+        - "🧬 Human & Biobank-Scale Genomics"
+        - "🌾 Agriculture & Plant Genomics"
+        - "⚙️ Pipelines & Computational Methods"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: organism_dataset
+    attributes:
+      label: Organism and Dataset Size
+      placeholder: "e.g., Darlingtonia californica — 19,166 SNPs across 199 individuals"
+    validations:
+      required: true
+
+  - type: textarea
+    id: adamixture_usage
+    attributes:
+      label: How was ADAMIXTURE used?
+      placeholder: "Specify K values, cross-validation (CV), GPU/CPU acceleration, runtime comparisons, or specific findings uncovered by ADAMIXTURE..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: figure_link
+    attributes:
+      label: Figure / Visualization (Optional)
+      placeholder: "Drag and drop or paste a link/image of the admixture barplot or population map here."
+    validations:
+      required: false
