@@ -1,6 +1,6 @@
 # ADAMIXTURE Showcase
 
-🌐 [https://ai-sandbox.github.io/adamixture-showcase/](https://ai-sandbox.github.io/adamixture-showcase/)
+[https://ai-sandbox.github.io/adamixture-showcase/](https://ai-sandbox.github.io/adamixture-showcase/)
 
 ## Submit a Use Case
 
