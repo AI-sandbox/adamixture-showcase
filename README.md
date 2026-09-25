@@ -4,7 +4,7 @@
 
 ## Submit a Use Case
 
-If you used ADAMIXTURE in your research or project:
+If you used ADAMIXTURE in your work:
 * Submit via [GitHub Issue](https://github.com/AI-sandbox/adamixture-showcase/issues/new?template=submit_use_case.yml)
 * Or submit a Pull Request.
 
