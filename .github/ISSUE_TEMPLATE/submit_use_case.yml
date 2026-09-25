@@ -33,19 +33,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: Research Category
-      options:
-        - "🌿 Ecology, Evolution & Conservation"
-        - "🧬 Human & Biobank-Scale Genomics"
-        - "🌾 Agriculture & Plant Genomics"
-        - "⚙️ Pipelines & Computational Methods"
-        - "Other"
-    validations:
-      required: true
-
   - type: input
     id: organism_dataset
     attributes:
