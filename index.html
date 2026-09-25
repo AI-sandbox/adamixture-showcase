@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>ADAMIXTURE Showcase | Real-World Use Cases</title>
-  <meta name="description" content="Selected real-world research studies and computational platforms powered by ADAMIXTURE.">
+  <title>ADAMIXTURE Showcase</title>
+  <meta name="description" content="ADAMIXTURE is a fast CPU/GPU implementation of ADMIXTURE for biobank-scale genetic clustering. .P and .Q outputs remain compatible with ADMIXTURE.">
 
   <link rel="icon" type="image/png" href="assets/img/logo.png">
   <link rel="stylesheet" href="style.css">
@@ -17,22 +17,12 @@
       <!-- Header Section -->
       <header class="header-section">
         <h1 class="display-title"><strong>ADAMIXTURE</strong> Showcase</h1>
-        <p class="subtitle">Selected real-world research &amp; software integrations</p>
-        <div class="nav-links">
-          <a href="https://github.com/AI-sandbox/ADAMIXTURE" target="_blank" rel="noopener noreferrer" class="blue-link">[GitHub]</a>
-          <a href="https://pypi.org/project/adamixture/" target="_blank" rel="noopener noreferrer" class="blue-link">[PyPI]</a>
-          <a href="https://doi.org/10.1093/bioinformatics/btag236" target="_blank" rel="noopener noreferrer" class="blue-link">[Bioinformatics Paper]</a>
-          <a href="https://github.com/AI-sandbox/adamixture-showcase" target="_blank" rel="noopener noreferrer" class="blue-link">[Showcase Repo]</a>
-        </div>
       </header>
 
       <!-- Introduction -->
       <section class="intro-section">
         <p>
-          <a href="https://github.com/AI-sandbox/ADAMIXTURE" target="_blank" class="blue-link"><strong>ADAMIXTURE</strong></a> is an ultra-fast, GPU-accelerated tool for biobank-scale population genetics and unsupervised ancestry clustering, maintaining full output compatibility with ADMIXTURE (<a href="https://doi.org/10.1093/bioinformatics/btag236" target="_blank" class="blue-link">Saurina-i-Ricós et al., <em>Bioinformatics</em> 2026</a>).
-        </p>
-        <p>
-          Below are highlighted real-world use cases where independent research teams and computational platforms have applied ADAMIXTURE to uncover biological insights and accelerate genomic workflows.
+          ADAMIXTURE is a fast CPU/GPU implementation of ADMIXTURE for biobank-scale genetic clustering. .P and .Q outputs remain compatible with ADMIXTURE.
         </p>
       </section>
 
@@ -57,7 +47,7 @@
           </p>
 
           <p class="case-description">
-            <strong>ADAMIXTURE Application:</strong>
+            <strong>Application:</strong>
             The authors used ADAMIXTURE to estimate individual ancestry proportions across a nuclear genomic dataset of <strong>19,166 SNPs in 199 individuals</strong>. They evaluated ancestral components across <strong><em>K</em> = 2 to 15</strong> with <strong>5-fold cross-validation</strong>, which supported <strong><em>K</em> = 3–4</strong> as the most plausible regional clustering structure. The results revealed limited admixture across regional boundaries, supporting the central–marginal hypothesis and demonstrating that gene flow in the host plant is restricted by landscape resistance rather than geographic distance alone.
           </p>
 
@@ -91,13 +81,13 @@
           </p>
 
           <p class="case-description">
-            <strong>ADAMIXTURE Application:</strong>
+            <strong>Application:</strong>
             JanusX directly integrates ADAMIXTURE through its <strong><code>fastpop</code></strong> module to perform rapid unsupervised population structure inference. This integration enables researchers to calculate ancestry matrices (Q matrices), generate stacked ancestry proportion bar plots, and control for population stratification directly inside automated high-throughput GWAS and genomic prediction pipelines without separate manual pre-processing.
           </p>
 
           <div class="case-links">
-            <a href="https://github.com/AI-sandbox/ADAMIXTURE" target="_blank" class="blue-link">[ADAMIXTURE Engine]</a>
-            <a href="https://doi.org/10.1093/bioinformatics/btag236" target="_blank" class="blue-link">[Paper Reference]</a>
+            <a href="https://github.com/AI-sandbox/ADAMIXTURE" target="_blank" class="neutral-link">[ADAMIXTURE Engine]</a>
+            <a href="https://doi.org/10.1093/bioinformatics/btag236" target="_blank" class="neutral-link">[Paper Reference]</a>
           </div>
         </article>
       </section>
@@ -132,14 +122,6 @@
 }</code></pre>
         <button class="btn-link blue-link" id="copy-main-bibtex">[Copy BibTeX]</button>
       </section>
-
-      <!-- Footer -->
-      <footer class="footer-section">
-        <p>
-          Developed at <a href="https://www.stanford.edu/" target="_blank" class="blue-link">Stanford University</a> &amp; <a href="https://github.com/AI-sandbox" target="_blank" class="blue-link">AI-sandbox</a>. 
-          Released under the <a href="https://opensource.org/licenses/BSD-3-Clause" target="_blank" class="blue-link">BSD-3-Clause License</a>.
-        </p>
-      </footer>
 
     </div>
   </div>

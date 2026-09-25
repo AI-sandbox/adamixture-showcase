@@ -78,6 +78,19 @@ body {
   text-decoration: underline;
 }
 
+.neutral-link {
+  color: #495057 !important;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.neutral-link:hover {
+  color: #212529 !important;
+  text-decoration: underline;
+}
+
 .btn-link {
   background: none;
   border: none;
