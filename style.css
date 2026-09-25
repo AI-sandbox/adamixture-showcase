@@ -58,16 +58,17 @@ body {
 
 .logo-container {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
   margin-bottom: 2.5rem;
   width: 100%;
 }
 
 .intro-logo {
-  width: 100%;
-  max-width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 /* Typography & Links */
