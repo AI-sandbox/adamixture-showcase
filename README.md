@@ -11,15 +11,15 @@ If you used ADAMIXTURE in your work:
 ## Citation
 
 ```bibtex
-@article{saurinaricos2026adamixture,
-  title     = {ADAMIXTURE: adaptive first-order optimization for biobank-scale genetic clustering},
-  author    = {Saurina-i-Ric{\'o}s, Joan and Mas Montserrat, Daniel and Ioannidis, Alexander G.},
-  journal   = {Bioinformatics},
-  volume    = {42},
-  number    = {Supplement\_1},
-  pages     = {btag236},
-  year      = {2026},
-  publisher = {Oxford University Press},
-  doi       = {10.1093/bioinformatics/btag236}
+@article{saurina2026adamixture,
+  title={ADAMIXTURE: adaptive first-order optimization for biobank-scale genetic clustering},
+  author={Saurina-i-Ricos, Joan and Mas Montserrat, Daniel and Ioannidis, Alexander G.},
+  journal={Bioinformatics},
+  volume={42},
+  number={Supplement\_1},
+  pages={btag236},
+  year={2026},
+  doi={10.1093/bioinformatics/btag236},
+  url={https://doi.org/10.1093/bioinformatics/btag236}
 }
 ```
